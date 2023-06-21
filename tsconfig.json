@@ -17,8 +17,6 @@
     "paths": {
       "@/*": ["./src/*"]
     },
-    "rootDir": "./src",
-    "baseUrl": "./",
     "plugins": [
       {
         "name": "next"
