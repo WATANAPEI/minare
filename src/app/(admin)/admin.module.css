@@ -1,0 +1,26 @@
+.body {
+  display: grid;
+  grid-template-columns: 0.15fr 0.85fr;
+  grid-template-rows: 0.1fr 0.8fr 0.1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+.adminHeader {
+  grid-area: 1 / 1 / 1 / 3;
+  background: #b5f032;
+}
+
+.sidemenuContainer {
+  grid-area: 2 / 1 / 2 / 2;
+  background: #3ecbd4;
+}
+
+.mainContainer {
+  grid-area: 2 / 2/ 2 / 3;
+  background: #dfffb2;
+}
+
+.footer {
+  grid-area: 3 / 1 / 3 / 3;
+  background: #3d3ec6;
+}

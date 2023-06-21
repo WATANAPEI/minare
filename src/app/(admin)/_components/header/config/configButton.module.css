@@ -1,0 +1,7 @@
+.configButton {
+  background-color: inherit;
+  border-color: #bbb;
+  padding: 10px;
+  box-shadow: none;
+  border-radius: var(--border-radius);
+}

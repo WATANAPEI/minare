@@ -1,0 +1,17 @@
+.headerContainer {
+  height: 70px;
+  padding: 10px 15px;
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  border-bottom: 1px solid #efefef;
+}
+
+.searchBarContainer {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.configContainer {
+  margin-left: 20px;
+}
