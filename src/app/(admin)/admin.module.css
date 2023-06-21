@@ -7,20 +7,20 @@
 }
 .adminHeader {
   grid-area: 1 / 1 / 1 / 3;
-  background: #b5f032;
+  background: rgb(86, 82, 193);
 }
 
 .sidemenuContainer {
   grid-area: 2 / 1 / 2 / 2;
-  background: #3ecbd4;
+  background: rgb(210, 210, 210);
 }
 
 .mainContainer {
   grid-area: 2 / 2/ 2 / 3;
-  background: #dfffb2;
+  background: rgb(210, 210, 210);
 }
 
 .footer {
   grid-area: 3 / 1 / 3 / 3;
-  background: #3d3ec6;
+  background: rgb(86, 82, 193);
 }

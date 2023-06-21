@@ -1,8 +1,8 @@
 import './globals.css'
 import styles from './admin.module.css'
 import { Metadata } from 'next'
-import { SideMenu } from '@/app/(admin)/_components/menu/Sidemenu'
-import { AdminHeader } from '@/app/(admin)/_components/header/AdminHeader'
+import { SideMenu } from '@/component/admin/menu/Sidemenu'
+import { AdminHeader } from '@/component/admin/header/AdminHeader'
 import { Footer } from '@/component/footer/Footer'
 
 export const metadata: Metadata = {
