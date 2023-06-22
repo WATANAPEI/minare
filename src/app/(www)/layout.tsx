@@ -1,12 +1,13 @@
 import './globals.css'
-import { Inter } from 'next/font/google'
+import styles from './RootLayout.module.css'
 import { Metadata } from 'next'
-
-const inter = Inter({ subsets: ['latin'] })
+import { SideMenu } from '@/component/www/menu/Sidemenu'
+import { BasicHeader } from '@/component/www/header/BasicHeader'
+import { Footer } from '@/component/footer/Footer'
 
 export const metadata: Metadata = {
-  title: 'minare - Wave, Listen to me.',
-  description: 'EC demo page'
+  title: 'Admin top page',
+  description: 'Admin top page of minare'
 }
 
 export default function RootLayout({
@@ -15,8 +16,19 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <html lang="ja">
+      <body className={styles.body}>
+        <div className={styles.adminHeader}>
+          <BasicHeader />
+        </div>
+        <div className={styles.sidemenuContainer}>
+          <SideMenu />
+        </div>
+        <div className={styles.mainContainer}>{children}</div>
+        <div className={styles.footer}>
+          <Footer />
+        </div>
+      </body>
     </html>
   )
 }

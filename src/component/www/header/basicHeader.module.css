@@ -1,0 +1,8 @@
+.headerContainer {
+  height: 50px;
+  padding: 0px 6px 0px 6px;
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  border-bottom: 1px solid #ececec;
+}

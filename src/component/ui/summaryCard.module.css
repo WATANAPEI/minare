@@ -1,0 +1,40 @@
+.cardFrame {
+  width: 100%;
+  max-width: 300px;
+  border-top: 4px solid rgb(86, 82, 193);
+  border-bottom: 1px solid #ececec;
+  border-right: 2px solid #ececec;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 6fr 4fr;
+  grid-template-rows: 2fr 4fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  padding: 6px;
+}
+
+.kpiText {
+  font-size: 28px;
+  letter-spacing: 1px;
+  margin-right: 2px;
+}
+
+.iconCell {
+  grid-area: 1 / 1 / 3 / 2;
+  border-right: 2px solid #ececec;
+  display: grid;
+  place-items: center;
+}
+
+.descriptionCell {
+  grid-area: 1 / 2 / 2 / 3;
+  display: grid;
+  place-items: center;
+  border-bottom: 2px solid #ececec;
+}
+
+.kpiCell {
+  grid-area: 2 / 2 / 3 / 3;
+  display: grid;
+  place-items: center;
+}
