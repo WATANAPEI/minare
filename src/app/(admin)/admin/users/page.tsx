@@ -1,18 +1,18 @@
-import styles from './ItemDetail.module.css'
 import { Metadata } from 'next'
+import styles from './UserList.module.css'
 
 export const metadata: Metadata = {
-  title: 'Item detail'
+  title: 'User list'
 }
 
-const ItemDetail: React.FC = () => {
+const UserList: React.FC = () => {
   return (
     <main className={styles.main}>
       <div className={styles.description}>
-        <p>Here is item detail.</p>
+        <p>Here is user list.</p>
       </div>
     </main>
   )
 }
 
-export default ItemDetail
+export default UserList

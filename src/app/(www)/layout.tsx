@@ -1,13 +1,16 @@
-import './globals.css'
+import '@/app/globals.css'
 import styles from './RootLayout.module.css'
-import { Metadata } from 'next'
 import { SideMenu } from '@/component/www/menu/Sidemenu'
 import { BasicHeader } from '@/component/www/header/BasicHeader'
 import { Footer } from '@/component/footer/Footer'
+import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Admin top page',
-  description: 'Admin top page of minare'
+  title: {
+    template: '%s | Minare',
+    default: 'Minare'
+  },
+  description: 'Minare is ec site demo application.'
 }
 
 export default function RootLayout({
