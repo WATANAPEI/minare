@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 export default function Index() {
   return (
     <main className={styles.main}>
-      <Link href="./admin">Admin page</Link>
+      <Link href="/admin">Admin page</Link>
     </main>
   )
 }
